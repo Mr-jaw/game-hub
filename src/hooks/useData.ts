@@ -7,7 +7,7 @@ interface FetchResponse<T> {
     count: number;
     results: T[];
 }
-
+ 
 const useData = <T>(endpoint: string) => {
     const [data, setGenres] = useState<T[]>([]);
     const [error, setError] = useState("");
