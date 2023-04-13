@@ -1,3 +1,26 @@
 form {
   width: 100%;
 }
+
+.link {
+  color: #898989 !important;
+}
+
+.link:hover {
+  color: #edf2f7 !important;
+}
+
+legend {
+  padding: 0 0.4em !important;
+  margin-left: 0 auto;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+fieldset {
+  margin-top: 0.3em !important;
+  border: 0.12em solid #edf2f7;
+  width: fit-content;
+  padding: 0.2em 0.8em 0.5em 0.8em !important;
+  border-radius: 0.5em;
+}
