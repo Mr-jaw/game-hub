@@ -2,14 +2,6 @@ form {
   width: 100%;
 }
 
-.link {
-  color: #898989 !important;
-}
-
-.link:hover {
-  color: #edf2f7 !important;
-}
-
 legend {
   padding: 0 0.4em !important;
   margin-left: 0 auto;
@@ -23,4 +15,18 @@ fieldset {
   width: fit-content;
   padding: 0.2em 0.8em 0.5em 0.8em !important;
   border-radius: 0.5em;
+}
+
+.sunicon {
+  transition: 1s ease-in-out;
+}
+.moonicon {
+  transition: 1s ease-in-out;
+}
+
+.sunicon:hover {
+  rotate: 90deg;
+}
+.moonicon:hover {
+  rotate: 360deg;
 }

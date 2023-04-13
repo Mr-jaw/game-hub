@@ -50,7 +50,12 @@ const GameStores = ({ game }: Props) => {
             href={store.url}
             key={store.id}
           >
-            <Icon as={storeMap[store.store_id]} color="currentColor" />
+            <Icon
+              as={storeMap[store.store_id]}
+              color="gray.500"
+              transition=".3s ease"
+              _hover={{ color: "gray.100" }}
+            />
           </Link>
         ))}
       </HStack>
