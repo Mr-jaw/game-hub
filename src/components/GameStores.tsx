@@ -43,7 +43,7 @@ const GameStores = ({ game }: Props) => {
           skeletons.map((skeleton) => (
             <Skeleton key={skeleton} height={"20px"} width={"20px"} />
           ))}
-        {data.map((store) => (
+        {data?.results.map((store) => (
           <Link
             className="link"
             target="_blank"
