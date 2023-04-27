@@ -1,7 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import apiClient, { FetchResponse } from "../services/api-client";
 import { Games } from "./useGames";
-import axios from "axios";
 
 interface Stores {
   id: number;
