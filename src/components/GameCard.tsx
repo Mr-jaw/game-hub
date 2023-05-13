@@ -4,7 +4,7 @@ import PlatformIconList from "./PlatformIconList";
 import CrtiticScore from "./CrtiticScore";
 import getCroppedImageUrl from "../services/image-url";
 import Emoji from "./Emoji";
-// import GameStores from "./GameStores";
+import GameStores from "./GameStores";
 
 interface Props {
   game: Games;
@@ -25,7 +25,7 @@ const GameCard = ({ game }: Props) => {
           {game.name}
           <Emoji rating={game.rating_top} />
         </Heading>
-        {/* <GameStores game={game} /> */}
+        <GameStores game={game} />
       </CardBody>
     </Card>
   );
