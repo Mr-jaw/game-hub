@@ -12,7 +12,6 @@ const GameTrailer = ({ gameId }: Props) => {
   if (error) throw error;
 
   const first = data?.results[0];
-  console.log(first);
 
   return first ? (
     <video src={first?.data.max} poster={first?.preview} controls />
