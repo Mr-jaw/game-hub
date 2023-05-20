@@ -8,6 +8,7 @@ const apiClient = new APIClient<Games>("/games");
 
 export interface Games {
   id: number;
+  slug: string;
   name: string;
   background_image: string;
   parent_platforms: { platform: Platform }[];
